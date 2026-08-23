@@ -83,8 +83,7 @@ comma-delimited list of values you'd like to inspect.
 
 Example Query 3, "Functions without return statements":
 -------------------------------------------------------
-Load the "Functions without return statements" example. You should get this
-code:
+In `javascript-queries/` create a new file **ex3.ql** with the following code:
 
 ```
 import javascript
