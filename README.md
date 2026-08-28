@@ -13,8 +13,9 @@ In this recitation, we will:
 
 Setup:
 ------
-1. Open this repository using **GitHub Codespaces**. A dialogue will say "This folder contains a workspace file ... <snip> ... Do you want to open it?" Click "Open Workspace".  You may receive a warning from the Git extension of too many active changes in the codeql submodule; you can ignore this warning, especially since you won't turn in this git repository.  Remember to commit changes to files you do care about before closing a codespace.
-2. Open the QL Tab on the sidebar of Visual Studio Code and click **"Add a CodeQL database From GitHub"**. Download `meteor/meteor` (https://github.com/meteor/meteor) CodeQL database.
+1. **Important:** Create a fork of this repository.
+2. In the fork, open it using **GitHub Codespaces**. Make sure to select a variant with **at least 4 cores for CPU, preferably 8 cores**.  A dialogue will say "This folder contains a workspace file ... <snip> ... Do you want to open it?" Click "Open Workspace".  You may receive a warning from the Git extension of too many active changes in the codeql submodule; you can ignore this warning, especially since you won't turn in this git repository.  Remember to commit changes to files you do care about before closing a codespace.
+3. Open the QL Tab on the sidebar of Visual Studio Code and click **"Add a CodeQL database From GitHub"**. Download `meteor/meteor` (https://github.com/meteor/meteor) CodeQL database.
 
 
 Example Query 1, "Functions with many parameters":
